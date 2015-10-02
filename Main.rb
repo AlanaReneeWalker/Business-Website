@@ -15,6 +15,7 @@ end
 
 get "/contact" do
 	erb :contact
+
 end
 
 def send_email(message_body)
@@ -41,4 +42,6 @@ puts "sending email now"
   send_email params[:message_body]
 redirect "/contact"
 end
+
+
 

@@ -2,7 +2,10 @@
 body {
     background-image: url("images/Pup_LogoName.png");
     background-size: cover;
+<<<<<<< HEAD
 }
+=======
+>>>>>>> master
 nav {
 	display: inline-block;
 }
@@ -39,3 +42,30 @@ textarea {
 	height: 20px;
 	width: 500px;
 }
+
+
+/*THIS THE CSS FOR THE PROFILE PAGE*/
+
+h1{
+	text-align: center;
+	color: rgb(83,71,65);
+	font-family: "azo-sans-uber",sans-serif;
+}
+
+p{
+	padding-bottom: 60px;
+/*	color: rgb(83,71,65);*/
+}
+
+#c1, #c2, #c3{
+	width: 28%;
+	float: left;
+	text-align: center;
+	padding-left: 55px;
+}
+
+.pic{
+	height: 300px;
+	width: 300px;
+}
+
