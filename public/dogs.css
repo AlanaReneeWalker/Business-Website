@@ -2,10 +2,7 @@
 body {
     background-image: url("images/Pup_LogoName.png");
     background-size: cover;
-<<<<<<< HEAD
-}
-=======
->>>>>>> master
+
 nav {
 	display: inline-block;
 }
@@ -22,8 +19,92 @@ li {
 
 /*CSS for services page*/
 #container{
-	
+	height: 100%;
+	width:100%;
+	display: inline;
+	/*position: relative;*/
 }
+
+#dog_picture{
+	border: 5px solid black;
+	width: 350px;
+	height: 300px;
+	float: left;
+	background-image: url("images/NavBones/doge1.jpg");
+	background-size: cover;
+
+}
+
+
+#dog_picture_2{
+	border: 5px solid black;
+	width: 350px;
+	height: 300px;
+	float: left;
+	background-image: url("images/NavBones/dogparty.jpg");
+	background-size: cover;
+	float: right;
+
+}
+
+/*#dog_picture_2{
+	border: 5px solid black;
+	width: 350px;
+	height: 300px;
+	float: right;
+}*/
+
+
+#paragraph_1{
+	height: 300px;
+/*	border: 5px solid red;*/
+	width: 900px;
+	float: left;
+	padding: 3px;
+}
+
+#paragraph_2{
+	height: 300px;
+/*	border: 5px solid red;*/
+	width: 900px;
+	float: left;
+	padding: 3px;
+}
+
+#speak{
+	height: 150px;
+	width: 100px;
+	margin: 50px 100px 50px 120px;
+	color: white;
+	/*border: 3px solid white;*/
+	/*background-color: white;*/
+
+
+}
+
+#click_me{
+	/*border: 2px solid white;*/
+	height: 100px;
+	width: 100px;
+	margin: 50px 100px 50px 235px;
+
+}
+
+/*#click_me2{
+	border: 2px solid white;
+	height: 300px;
+	width: 300px;
+	margin: 50px 100px 50px 50px;
+
+}*/
+
+/*#speak2{
+	height: 150px;
+	width: 100px;
+	margin: 50px 100px 50px 120px;
+	color: white;
+}
+
 /*CSS for contact page*/
 h1 {
 	text-align: center;
@@ -68,4 +149,5 @@ p{
 	height: 300px;
 	width: 300px;
 }
+
 
