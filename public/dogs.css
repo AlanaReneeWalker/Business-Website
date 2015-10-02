@@ -1,7 +1,11 @@
 /*CSS for Nav Bar*/
-* {
-	background-color: 
+body {
+    background-image: url("images/Pup_LogoName.png");
+    background-size: cover;
+<<<<<<< HEAD
 }
+=======
+>>>>>>> master
 nav {
 	display: inline-block;
 }
@@ -20,6 +24,25 @@ li {
 #container{
 	
 }
+/*CSS for contact page*/
+h1 {
+	text-align: center;
+  	font-family: "azo-sans-uber",sans-serif;
+  	color: rgb(54, 193, 229);
+}
+h4 {
+	color: rgb(54, 193, 229);
+}
+form {
+	margin-top: 75px;
+	margin-left: 400px;
+	position: absolute;
+}
+textarea {
+	height: 20px;
+	width: 500px;
+}
+
 
 /*THIS THE CSS FOR THE PROFILE PAGE*/
 
@@ -45,9 +68,4 @@ p{
 	height: 300px;
 	width: 300px;
 }
-
-
-
-
-
 
