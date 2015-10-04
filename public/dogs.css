@@ -3,7 +3,8 @@ body {
     background-image: url("images/Pup_LogoName.png");
     background-size: cover;
 
-nav {
+ }
+ nav{
 	display: inline-block;
 }
 img {
@@ -40,20 +41,11 @@ li {
 	border: 5px solid black;
 	width: 350px;
 	height: 300px;
-	float: left;
 	background-image: url("images/NavBones/dogparty.jpg");
 	background-size: cover;
 	float: right;
 
 }
-
-/*#dog_picture_2{
-	border: 5px solid black;
-	width: 350px;
-	height: 300px;
-	float: right;
-}*/
-
 
 #paragraph_1{
 	height: 300px;
@@ -127,12 +119,15 @@ textarea {
 
 /*THIS THE CSS FOR THE PROFILE PAGE*/
 
-h1{
+#apple{
 	text-align: center;
-	color: rgb(83,71,65);
+	color: rgb(128,128,128);
 	font-family: "azo-sans-uber",sans-serif;
 }
 
+h4{
+	margin-top: 60px;
+}
 p{
 	padding-bottom: 60px;
 /*	color: rgb(83,71,65);*/
@@ -148,6 +143,7 @@ p{
 .pic{
 	height: 300px;
 	width: 300px;
+	background-size: cover;
 }
 
 
