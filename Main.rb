@@ -23,12 +23,12 @@ def send_email(message_body)
 	mandrill = Mandrill::API.new
 
 	message = {
-	   :subject => "Hello",
+	   :subject => "test",
 	   :from_name => "Alana",
 	   :text => message_body,
-	   :to => [{:email=> "alanareneewalker@gmail.com", :name=> "Alana Walker"}],
+	   :to => [{:email=> "joegigsdj@gmail.com", :name=> "Alana Walker"}],
 	   :html => "<html><h1>#{message_body}</h1></html>",
-	   :from_email => "alana_walker93@yahoo.com",
+	   :from_email => "jgiglio86@gmail.com",
 	  }
 	  sending = mandrill.messages.send message
 
