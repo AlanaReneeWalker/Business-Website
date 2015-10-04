@@ -2,7 +2,7 @@
 body {
     background-image: url("images/Pup_LogoName.png");
     background-size: cover;
-
+}
 nav {
 	display: inline-block;
 }
@@ -40,7 +40,7 @@ li {
 	border: 5px solid black;
 	width: 350px;
 	height: 300px;
-	float: left;
+	/*float: left;*/
 	background-image: url("images/NavBones/dogparty.jpg");
 	background-size: cover;
 	float: right;
@@ -127,27 +127,31 @@ textarea {
 
 /*THIS THE CSS FOR THE PROFILE PAGE*/
 
-h1{
-	text-align: center;
-	color: rgb(83,71,65);
-	font-family: "azo-sans-uber",sans-serif;
+#profile_wrapper{
+	height: 100%;
+	width:100%;
+	display: inline;
+
 }
 
-p{
-	padding-bottom: 60px;
-/*	color: rgb(83,71,65);*/
-}
-
-#c1, #c2, #c3{
-	width: 28%;
-	float: left;
-	text-align: center;
-	padding-left: 55px;
-}
-
-.pic{
+#frenchie{
+	background-image: url("images/NavBones/frenchie.jpg");
+	background-size: cover;
+	border: 5px solid black;
+	width: 350px;
 	height: 300px;
-	width: 300px;
+	float: left;
+
+
 }
 
+#profile_para_1{
+	float: left;
+	height: 300px;
+	border: 5px solid red;
+	width: 900px;
+	/*padding: 3px;*/
+
+
+}
 
